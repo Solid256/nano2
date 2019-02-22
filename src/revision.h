@@ -1,1 +1,1 @@
-#define NOTHING "from tarball"
+#define REVISION ""

@@ -23,7 +23,7 @@ srcdir = .
 top_srcdir = ..
 
 
-prefix = /home/connor/Downloads/nano-3.2/stage
+prefix = /home/connor/Documents/projects/nano2/stage
 exec_prefix = ${prefix}
 datarootdir = ${prefix}/share
 datadir = ${datarootdir}
@@ -36,12 +36,12 @@ INSTALL_DATA = ${INSTALL} -m 644
 # We use $(mkdir_p).
 # In automake <= 1.9.x, $(mkdir_p) is defined either as "mkdir -p --" or as
 # "$(mkinstalldirs)" or as "$(install_sh) -d". For these automake versions,
-# ${SHELL} /home/connor/Downloads/nano-3.2/install-sh does not start with $(SHELL), so we add it.
+# ${SHELL} /home/connor/Documents/projects/nano2/install-sh does not start with $(SHELL), so we add it.
 # In automake >= 1.10, $(MKDIR_P) is derived from ${MKDIR_P}, which is defined
 # either as "/path/to/mkdir -p" or ".../install-sh -c -d". For these automake
 # versions, $(mkinstalldirs) and $(install_sh) are unused.
-mkinstalldirs = $(SHELL) ${SHELL} /home/connor/Downloads/nano-3.2/install-sh -d
-install_sh = $(SHELL) ${SHELL} /home/connor/Downloads/nano-3.2/install-sh
+mkinstalldirs = $(SHELL) ${SHELL} /home/connor/Documents/projects/nano2/install-sh -d
+install_sh = $(SHELL) ${SHELL} /home/connor/Documents/projects/nano2/install-sh
 MKDIR_P = /bin/mkdir -p
 mkdir_p = $(MKDIR_P)
 

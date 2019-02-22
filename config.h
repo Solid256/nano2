@@ -1130,7 +1130,7 @@
 #define PACKAGE_VERSION "3.2"
 
 /* Where data are placed to. */
-#define PKGDATADIR "/home/connor/Downloads/nano-3.2/stage/share/nano"
+#define PKGDATADIR "/home/connor/Documents/projects/nano2/stage/share/nano"
 
 /* Define if the pthread_in_use() detection is hard. */
 /* #undef PTHREAD_IN_USE_DETECTION_HARD */
