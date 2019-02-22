@@ -1,6 +1,6 @@
 Directions for compiling nano2.
 
-First, follow the directions in the link below, but skip the last step. Ignore the 'it will take 40 minutes to finish' crap. It won't, trust me.
+First, follow the directions in the link below, but skip the last step, and don't bother downloading the source code as it is already in the repository. Ignore the 'it will take 40 minutes to finish' crap. It won't, trust me.
 
 http://mybookworld.wikidot.com/compile-nano-from-source
 
